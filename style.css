@@ -13,20 +13,18 @@ font-family: cursive;
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
-  
+  box-sizing: inherit; 
 }
 .play-box{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%,-50%); 
     height: 75vh;
     width: 55vw;
     box-shadow: 2px 5px 8px rgb(0, 0, 0,.8);
     border-radius: 5px;
-    overflow: hidden;
+    overflow: auto;
 }
 .player-box{
     text-align: center;
@@ -49,23 +47,18 @@ font-family: cursive;
     padding: 20px;
     transform: translateX(100%) translateY(100%);
     border-radius: 5px;
-    
-
 }
 .player-box__1{
 position: absolute;
 top: 0;
 left: 0;
 background-color:rgba(209, 186, 214,.5);
-
 }
 .player-box__2{
     position: absolute;
     top: 0;
     left: 50%;
     background-color: rgba(209, 186, 214,.5);
-    
-
 }
 
 .btn {
@@ -76,15 +69,12 @@ background-color:rgba(209, 186, 214,.5);
     box-shadow: 2px 5px 8px rgba(5, 5, 5, 0.671);
     padding: 10px 50px;
     text-decoration: none;
-    opacity: .75;
-    
-
+    opacity: .75;    
 }
 .new-game__btn{
     position: absolute;
     top: 10px;
-    left: 41%;
-    
+    left: 41%;   
 }
 .roll-dice__img{
     position: absolute;
@@ -93,8 +83,7 @@ background-color:rgba(209, 186, 214,.5);
     background-color: white;
     height: 100px;
     width: 95px;
-    box-shadow: 2px 5px 8px rgba(5, 5, 5, 0.671);
-    
+    box-shadow: 2px 5px 8px rgba(5, 5, 5, 0.671);    
 }
 .roll-dice__btn{
     position: absolute;
