@@ -1,0 +1,116 @@
+body{
+box-sizing: border-box;
+background-image: linear-gradient(to bottom right , rgb(228, 60, 60) , rgb(102, 0, 128));
+background-size: cover;
+height: 100vh;
+position: relative;
+font-family: cursive;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  
+}
+.play-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 75vh;
+    width: 55vw;
+    box-shadow: 2px 5px 8px rgb(0, 0, 0,.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.player-box{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    z-index: 5;
+}
+.player-box__name{
+    padding: 50px;
+    font-size: 30px;
+}
+.player-box__score{
+    padding: 10px;
+    font-size: 30px;
+}
+.player-box__currentscore{
+    background-color: rgb(228, 60, 102);
+    color: white;
+    width: 130px;
+    padding: 20px;
+    transform: translateX(100%) translateY(100%);
+    border-radius: 5px;
+    
+
+}
+.player-box__1{
+position: absolute;
+top: 0;
+left: 0;
+background-color:rgba(209, 186, 214,.5);
+
+}
+.player-box__2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: rgba(209, 186, 214,.5);
+    
+
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: 2px 5px 8px rgba(5, 5, 5, 0.671);
+    padding: 10px 50px;
+    text-decoration: none;
+    opacity: .75;
+    
+
+}
+.new-game__btn{
+    position: absolute;
+    top: 10px;
+    left: 41%;
+    
+}
+.roll-dice__img{
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    background-color: white;
+    height: 100px;
+    width: 95px;
+    box-shadow: 2px 5px 8px rgba(5, 5, 5, 0.671);
+    
+}
+.roll-dice__btn{
+    position: absolute;
+    top: 250px;
+    left: 41%;
+}
+.hold__btn{
+    position: absolute;
+    top: 350px;
+    left: 41%;
+}
+.btn-box{
+    position: absolute;
+    top: 30px;
+    left: 41%;
+    z-index: 10;
+}
+.hidden {
+    visibility: hidden;
+}
+.turn {
+    background-color: rgba(255, 255, 255, 0.63);
+}
